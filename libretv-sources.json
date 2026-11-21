@@ -1,34 +1,45 @@
 {
-  "name": "豆包整理 · 短剧+影视直播双源",
+  "name": "豆包整理 · 短剧+影视+直播 全量源",
   "version": 2,
   "snapshotDate": "2026-11-21",
   "sources": [
     { "name": "红牛资源", "url": "https://www.hongniuzy2.com/api.php/provide/vod" },
+    { "name": "红牛资源(hls)", "url": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8" },
     { "name": "极速资源", "url": "https://jszyapi.com/api.php/provide/vod" },
     { "name": "虎牙资源", "url": "https://www.huyaapi.com/api.php/provide/vod" },
     { "name": "无尽资源", "url": "https://api.wujinapi.com/api.php/provide/vod" },
+    { "name": "无尽资源(镜像)", "url": "https://api.wujinapi.me/api.php/provide/vod" },
     { "name": "最大资源", "url": "http://api.zuidapi.com/api.php/provide/vod" },
+    { "name": "最大资源(镜像)", "url": "http://zuidazy.me/api.php/provide/vod" },
     { "name": "豪华资源", "url": "https://hhzyapi.com/api.php/provide/vod" },
     { "name": "光速资源", "url": "https://api.guangsuapi.com/api.php/provide/vod" },
+    { "name": "光速资源(hls)", "url": "http://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8" },
     { "name": "金鹰点播", "url": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json" },
+    { "name": "金鹰资源(hls)", "url": "http://jyzyapi.com/provide/vod/from/jinyingm3u8" },
     { "name": "茅台资源", "url": "https://caiji.maotaizy.cc/api.php/provide/vod" },
     { "name": "猫眼资源", "url": "https://api.maoyanapi.top/api.php/provide/vod" },
     { "name": "非凡资源", "url": "https://api.ffzyapi.com/api.php/provide/vod" },
     { "name": "爱奇艺资源", "url": "https://iqiyizyapi.com/api.php/provide/vod" },
     { "name": "魔都资源", "url": "https://www.mdzyapi.com/api.php/provide/vod" },
+    { "name": "魔都资源(b)", "url": "https://mdzyapi.com/api.php/provide/vod" },
+    { "name": "魔都资源(c)", "url": "https://caiji.moduapi.cc/api.php/provide/vod" },
+    { "name": "魔都动漫", "url": "https://caiji.moduapi.cc/api.php/provide/vod/from/mdm3u8" },
     { "name": "360资源", "url": "https://360zy.com/api.php/provide/vod" },
+    { "name": "360资源(镜像)", "url": "https://360zyzz.com/api.php/provide/vod" },
     { "name": "U酷影视", "url": "https://api.ukuapi88.com/api.php/provide/vod" },
     { "name": "百度云资源", "url": "https://api.apibdzy.com/api.php/provide/vod" },
     { "name": "母鸡资源", "url": "https://mujiziyuan00.com/api.php/provide/vod" },
-    { "name": "魔都动漫", "url": "https://caiji.moduapi.cc/api.php/provide/vod/from/mdm3u8" }
+    { "name": "母鸡资源(镜像)", "url": "https://mujiziyuan01.com/api.php/provide/vod" },
+    { "name": "母鸡资源(主站)", "url": "https://mujiziyuan.com/api.php/provide/vod" }
   ],
   "liveSources": [
-    { "name": "Guovin · 国内IPv4合集", "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/ipv4/result.m3u" },
-    { "name": "Guovin · 全量合集(含IPv6)", "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u" },
+    { "name": "Guovin · 国内IPv4", "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/ipv4/result.m3u" },
+    { "name": "Guovin · 全量(含IPv6)", "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u" },
     { "name": "suxuang · 国内IPv4", "url": "https://cdn.jsdelivr.net/gh/suxuang/myIPTV@main/ipv4.m3u" },
-    { "name": "YueChan · 港澳台海外GNTV", "url": "https://cdn.jsdelivr.net/gh/YueChan/Live@main/GNTV.m3u" },
+    { "name": "YueChan · 港澳台海外", "url": "https://cdn.jsdelivr.net/gh/YueChan/Live@main/GNTV.m3u" },
     { "name": "aptv · 综合直播", "url": "https://cdn.jsdelivr.net/gh/Kimentanm/aptv@master/m3u/iptv.m3u" },
-    { "name": "IPTV-org · 中国大陆频道", "url": "https://iptv-org.github.io/iptv/countries/cn.m3u" },
-    { "name": "fanmingming · IPv6专用", "url": "https://cdn.jsdelivr.net/gh/fanmingming/live@main/tv/m3u/ipv6.m3u" }
+    { "name": "IPTV-org · 中国大陆", "url": "https://iptv-org.github.io/iptv/countries/cn.m3u" },
+    { "name": "fanmingming · IPv6专用", "url": "https://cdn.jsdelivr.net/gh/fanmingming/live@main/tv/m3u/ipv6.m3u" },
+    { "name": "zbds · IPv4备用(txt)", "url": "https://live.zbds.top/tv/iptv4.txt" }
   ]
 }
